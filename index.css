@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body{
+    background-color: #292929;
+    color: white;
+    font-family: comfortaa;
+    user-select: none;
+}
+
+.button-default{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #001ECF;
+    background: linear-gradient(to top, #ff8400 0%, #ffd376 100%);
+
+    transition: 0.5s;
+    margin: 10px;
+    color: white;
+    font-family: comfortaa;
+    font-weight: 600;
+    padding-left: 0.5cm;padding-right: 0.5cm;
+}
+
+.button-default:hover {
+    box-shadow: 0px 0px 24px 1px rgba(253, 97, 0, 0.45);
+    transform: translateY(-5px);
+}
+
+.button-default:active {
+    box-shadow: 0px 0px 24px 1px rgba(253, 97, 0, 0.45);
+    transform: translateY(-2px);
+}
+
+.button-option{
+    border: none;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.351);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+    font-family: comfortaa;
+    font-weight: 600;
+}
+
+.button-option:hover {
+    color:rgb(180, 180, 180);
+    box-shadow: 0px 0px 25px -10px rgba(255, 255, 255, 0.98);
+}
+
+.button-option:active {
+    background-color: #818181;
+    color: black;
+}
+
+header {
+    background-color: #525252;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.5s;
+    width: 94%;
+}
+
+header:hover {
+    box-shadow: 0px 0px 25px -10px rgba(125, 125, 125, 0.98);
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    background-color: #747474;
+    font-size: 30px;
+    font-family: comfortaa;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 25px -10px rgba(125, 125, 125, 0.98);
+    transform: translateY(-5px);
+}
+
+input:hover {
+    box-shadow: 0px 0px 25px -6px rgba(125, 125, 125, 0.98);
+}
+
+.header-text {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.header-text:hover{
+    text-shadow: 0px 0px 25px rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.div-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
